@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
     printf("Введите информацию о книгах в ряде %d (для окончания ввода введите END):\n", row_number);
 
     while (1) {
-        printf("Идентификатор, Номер полки, Номер книги в полке: ");
+        printf("Идентификатор, Номер шкафа, Номер книги в шкафу: ");
         fgets(buffer, MAX_BUFFER_SIZE, stdin);
         buffer[strcspn(buffer, "\n")] = '\0'; // Удаление символа новой строки
 
