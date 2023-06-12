@@ -91,7 +91,7 @@ int main(int argc, char* argv[]) {
     // Вывод отсортированного каталога
     printf("Каталог библиотеки:\n");
     for (int i = 0; i < num_books; i++) {
-        printf("%s, %d, %d, %d\n", catalog[i].identifier, catalog[i].row, catalog[i].shelf, catalog[i].book_number);
+        printf("Название книги: %s, Номер ряда: %d, Номер шкафа: %d, Номер книги в шкафу: %d\n", catalog[i].identifier, catalog[i].row, catalog[i].shelf, catalog[i].book_number);
     }
 
     // Закрытие сокета
